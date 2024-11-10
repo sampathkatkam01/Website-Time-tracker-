@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #container {
+    width: 320px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    font-size: 1.2em;
+    margin: 0;
+    color: #333;
+  }
+  
+  #status {
+    color: #28a745;
+    font-size: 0.9em;
+    margin-bottom: 8px;
+  }
+  
+  .timezone {
+    font-size: 0.8em;
+    color: #666;
+  }
+  
+  .toggle-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .toggle-container button {
+    padding: 6px 12px;
+    border: none;
+    background-color: #e0e0e0;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .toggle-container button:hover {
+    background-color: #d0d0d0;
+  }
+  
+  .time-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .favicon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .domain {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .time {
+    color: #666;
+    margin-left: auto;
+    font-size: 0.9em;
+  }
+  
